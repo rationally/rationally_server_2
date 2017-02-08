@@ -1,0 +1,9 @@
+Getting the project
+
+1) download IntelliJ IDEA from: https://www.jetbrains.com/idea/download/#section=windows
+2) When opening IntelliJ, choose the option "from source control" and select "git"
+3) fill in the required information
+
+Getting Maven
+
+4) 
