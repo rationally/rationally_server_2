@@ -1,11 +1,13 @@
 REQUIREMENTS:
-Java 1.8 installed on your computer.
+Java 1.8 SDK installed on your computer, with the same version (x86 or x64) as IntelliJ.
+download IntelliJ IDEA from: https://www.jetbrains.com/idea/download/#section=windows
 
 INSTALLATION:
 
-Getting the project
-
-1) download IntelliJ IDEA from: https://www.jetbrains.com/idea/download/#section=windows
-2) When opening IntelliJ, choose the option "from source control" and select "git"
+1) Open intelliJ
+2) Choose the option "from source control" and select "git"
 3) fill in the required information
+4) in module settings (Dependencies tab), make sure that the SDK is set to 1.8.x.
+5) in module settings (Sources tab), make sure the Language level is set to 8.
+6) In File > settings > compiler > java compiler, the bytecode level of the module should be 1.8
 
